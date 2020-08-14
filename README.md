@@ -29,13 +29,14 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
-
+<!-- - React is useful because uses less code, less resources, and creates less bugs. React uses a virtual DOM that expends less resources because it only renders what is essential. This opens up the ability to quickly and almost infinitely re-render. Along with the ability to use react imports to restructure the page, re-use code, and control how things are rendered (only during changes) we are able to recycle code (use less code) and reduce the chance of side effects or other residual function conflicts (less bug errors). Because of Reacts ability to re-purpose code it inherits from it's parents a website has to be though of more in terms of a functional (component) context rather than a structural/visual one.  -->
 1. Describe component state.
-
+<!-- - Component state allows you to create components that are dynamic and interactive because of how component's state receives, records, and interacts with information and then can manipulate other information based on it's status or changes to it. -->
 1. Describe props.
+<!-- - Props are parameters that can customize components. Props are typically passed through components as parameters in curly brackets the component is imported through an import statement to another component and then through a function it is usually passed through props as a parameter again where it is either, destructured, referenced, or called. --->
 
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
-
+<!-- - Side effects are the residual changes of state or code that are left as the result of functions changing information. This code has been left in a position that could potential trigger unwanted events including the worst case, an infinite loop. You can sync effects or reduce the chances of error by using the useEffect which will set as the state inside useEffect when props or states are changed. -->
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
 ## Instructions
