@@ -5,6 +5,7 @@ import Styled from './components/Styled/Styled';
 
 import StarWarsContainer from './components/StarWars/StarWarsContainer';
 import MortyContainer from './components/Morty/MortyContainer';
+import PokemonContainer from './components/Pokemon/PokemonContainer';
 
 const App = () => {
 
@@ -14,7 +15,7 @@ const App = () => {
         <div className="section"> 
         <StarWarsContainer />
         <MortyContainer />
-        {/* <PokemonContainer /> */}
+        <PokemonContainer />
         </div>
       </Styled>
     </div>
