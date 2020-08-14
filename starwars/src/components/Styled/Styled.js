@@ -1,4 +1,14 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
+
+const rotate = keyframes`
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+`;
 
 const Styled = styled.div`
     padding: 25px;
@@ -11,6 +21,7 @@ const Styled = styled.div`
     
     h1 {
         color: gray;
+        animation: ${rotate} 2s linear infinite;
     }
 
     h2 {
