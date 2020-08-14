@@ -19,7 +19,7 @@ const StarWarsContainer = () => {
   }, [])
 
   return (
-    <div className="CardContainer">
+    <div className="CardContainer" id="sw">
         {starWarsData.map((character, id) => {
           return (
             <Character key={id} character={character} />

@@ -30,9 +30,22 @@ const Styled = styled.div`
 
     .section {
         display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-flex-start;
+        width: 100%;
+    }
+
+    #sw {
+        background-color: tan;
+    }
+
+    #mt {
+        background-color: turquoise;
+    }
+
+    #pm {
+        background-color: brown;
     }
 
 `;

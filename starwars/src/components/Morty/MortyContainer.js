@@ -20,7 +20,7 @@ const MortyContainer = () => {
 
   return (
     
-    <div className="CardContainer">
+    <div className="CardContainer" id="mt">
         {mortyData.map((character, id) => {
           return (
             <Character key={id} character={character} />
