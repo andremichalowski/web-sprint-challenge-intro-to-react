@@ -19,6 +19,7 @@ const MortyContainer = () => {
   }, [])
 
   return (
+    
     <div className="CardContainer">
         {mortyData.map((character, id) => {
           return (

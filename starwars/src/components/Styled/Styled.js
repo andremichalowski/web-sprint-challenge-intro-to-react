@@ -34,6 +34,7 @@ const Styled = styled.div`
     justify-content: space-between;
     align-items: center;
     }
+
 `;
 
 export default Styled;
