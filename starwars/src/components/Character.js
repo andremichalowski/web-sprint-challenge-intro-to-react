@@ -1,12 +1,17 @@
 import React from 'react';
 
-function Character = (props) => {
+import Styled from './Styled';
+
+const Character = (props) => {
   return (
     <div>
-    <h1>Test</h1>
-    {/* // <h1>Character Name: {props.name}</h1>
-    // <h1>Character {props.}</h1>
-    // <img src={props.img} /> */}
+      <Styled>
+        <h1> {props[1].name}</h1>
+        <h2> Birth Year: {props[1].birth_year}</h2>
+        <h2> Home: {props[1].homeworld}</h2>
+        <h2> Height: {props[1].height}</h2>
+        <h2> Mass: {props[1].mass}</h2>
+      </Styled>
     </div>
   );
 }
