@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Styled from './Styled';
+import Styled from '../Styled/Styled';
 
 const Character = (props) => {
   
